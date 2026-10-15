@@ -4,6 +4,8 @@
 
 An interactive 3D journey from a futuristic room to a cyberpunk city, built with C++ and OpenGL. Explore animated traffic, changing lighting, and rain.
 
+[Project report](report.pdf) · [Source code](cyber_travel.cpp)
+
 ## Run
 
 On Windows, run from the project folder:
