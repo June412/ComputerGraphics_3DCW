@@ -232,27 +232,27 @@ GLuint LoadTexture(const char* fileName, bool repeat = false, bool linear = fals
  * @brief Initializes all application textures.
  */
 void initAllTextures() {
-    tex.wall = LoadTexture("wall_f.bmp");
-    tex.keyboard = LoadTexture("keyboard.bmp");
-    tex.frameLeft = LoadTexture("frame.bmp");
-    tex.floor = LoadTexture("back.bmp", true); 
-    tex.screen = LoadTexture("screen1.bmp");
-    tex.screen2 = LoadTexture("screen2.bmp");
-    tex.flash = LoadTexture("loading.bmp");
-    tex.boxSide = LoadTexture("wall_rl.bmp");
-    tex.vortex = LoadTexture("vortex.bmp", true, true);
+    tex.wall = LoadTexture("textures/wall_f.bmp");
+    tex.keyboard = LoadTexture("textures/keyboard.bmp");
+    tex.frameLeft = LoadTexture("textures/frame.bmp");
+    tex.floor = LoadTexture("textures/back.bmp", true);
+    tex.screen = LoadTexture("textures/screen1.bmp");
+    tex.screen2 = LoadTexture("textures/screen2.bmp");
+    tex.flash = LoadTexture("textures/loading.bmp");
+    tex.boxSide = LoadTexture("textures/wall_rl.bmp");
+    tex.vortex = LoadTexture("textures/vortex.bmp", true, true);
 
-    tex.bgDay = LoadTexture("day.bmp");
-    tex.bgSunset = LoadTexture("sunset.bmp");
-    tex.bgNight = LoadTexture("night.bmp");
-    tex.skyTopSunset = LoadTexture("sunset_sky.bmp", false, true);
-    tex.cyberPavement = LoadTexture("pavement.bmp", true);
-    tex.skyTrain = LoadTexture("train.bmp");
-    tex.walls[0] = LoadTexture("wall0.bmp");
-    tex.walls[1] = LoadTexture("wall1.bmp");
-    tex.walls[2] = LoadTexture("wall2.bmp");
-    tex.walls[3] = LoadTexture("wall3.bmp");
-    tex.roadMain = LoadTexture("road.bmp", true, true);
+    tex.bgDay = LoadTexture("textures/day.bmp");
+    tex.bgSunset = LoadTexture("textures/sunset.bmp");
+    tex.bgNight = LoadTexture("textures/night.bmp");
+    tex.skyTopSunset = LoadTexture("textures/sunset_sky.bmp", false, true);
+    tex.cyberPavement = LoadTexture("textures/pavement.bmp", true);
+    tex.skyTrain = LoadTexture("textures/train.bmp");
+    tex.walls[0] = LoadTexture("textures/wall0.bmp");
+    tex.walls[1] = LoadTexture("textures/wall1.bmp");
+    tex.walls[2] = LoadTexture("textures/wall2.bmp");
+    tex.walls[3] = LoadTexture("textures/wall3.bmp");
+    tex.roadMain = LoadTexture("textures/road.bmp", true, true);
 }
 void setNeon(const GLfloat* color, float intensity = 1.0f) {
     GLfloat matEmit[] = { color[0] * intensity, color[1] * intensity, color[2] * intensity, 1.0f };
