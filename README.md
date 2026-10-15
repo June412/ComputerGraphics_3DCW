@@ -1,6 +1,17 @@
-# CPT205 3D Coursework
+# Reality Link: Cyber Travel
 
-An interactive 3D graphics project for CPT205, built with C++, OpenGL and FreeGLUT.
+An interactive 3D scene built with C++, OpenGL and FreeGLUT, connecting a futuristic
+room to a cyberpunk city with changing lighting, weather and animated traffic.
+
+## Academic Context
+
+| Field | Details |
+| --- | --- |
+| University | Xi'an Jiaotong-Liverpool University (XJTLU) |
+| Module | CPT205 — Computer Graphics |
+| Project type | Individual coursework |
+| Author | Junyan He |
+| Academic year | 2025–2026 |
 
 ## Project Files
 
